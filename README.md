@@ -88,33 +88,8 @@ Find this line in the combat thread:
 Lua
 if pedDistance < 30 then
 Change 30 to your desired combat engagement distance in units
-
-Gang Models
-Crip (Ballas)
-g_m_y_ballaeast_01
-g_m_y_ballaorig_01
-g_m_y_ballasout_01
-Blood (Family)
-g_m_y_famca_01
-g_m_y_famdnf_01
-g_m_y_famfor_01
-Vato (Vago)
-g_m_y_mexgoon_01
-g_m_y_mexgoon_02
-g_m_y_mexgoon_03
-Mafia (Mara)
-g_m_y_mexgang_01
-g_m_y_mexgang_02
-g_m_y_mexgang_03
-Lost MC
-g_m_y_lost_01
-g_m_y_lost_02
-g_m_y_lost_03
 Features Breakdown
 Spawning System
-Bodyguards spawn in a circle around you
-Safe spawn distance prevents clipping
-Automatic ground detection
 Model loading with timeout protection
 Following System
 Constant distance checking (every 100ms)
@@ -160,12 +135,9 @@ resources/
 Dependencies
 qb-core - Core framework
 qb-menu - Menu system
-Console Commands
-Spawn Bodyguard
-Code
+
 /bodyguard
-Chat Notifications
-Success Messages
+
 "Crip bodyguard spawned with assault rifle!"
 "Blood bodyguard spawned with assault rifle!"
 "Vato bodyguard spawned with assault rifle!"
@@ -179,20 +151,6 @@ Error Messages
 Dismissal
 "All bodyguards dismissed"
 Console Logging
-The script outputs detailed logs for debugging:
-
-[BODYGUARD] Spawning {Gang} with model: {Model}
-[BODYGUARD SUCCESS] {Gang} bodyguard spawned!
-[BODYGUARD] Removing dead bodyguard
-[BODYGUARD] All bodyguards dismissed
-[BODYGUARD ERROR] Failed to load model: {Model}
-Credits
-QBCore Bodyguard Script Created for FiveM & QBCore Framework
-
-License
-This script is provided as-is for use with QBCore servers.
-
-Check console logs for error messages
 Verify all dependencies are running
 Ensure proper file placement
 Review configuration settings
